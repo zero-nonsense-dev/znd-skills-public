@@ -1,13 +1,7 @@
 ---
 name: markitdown
 description: >-
-  Convert a PDF, Word, PowerPoint, Excel, HTML, CSV, JSON, XML or EPUB file to clean
-  Markdown before reading it: cuts token usage roughly 60 to 90 percent versus reading the
-  file natively and keeps tables, headings and lists intact. Use before reading any file
-  with one of those extensions, or on "read this PDF", "process this document", or "use
-  markitdown". Do NOT use for plain .txt or .md files, native reading is already exact and
-  cheaper for those, and not for images unless the goal is text extraction from the image
-  itself.
+  Converts PDF, Word, PowerPoint, Excel, HTML, CSV, JSON, XML or EPUB files to clean Markdown before reading, which cuts tokens and keeps tables and headings. Use when about to read a file with one of those extensions, or on "read this PDF" or "use markitdown". Do NOT use for .txt or .md files.
 ---
 
 # Markitdown file preprocessor

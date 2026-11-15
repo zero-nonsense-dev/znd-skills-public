@@ -1,6 +1,7 @@
 ---
 name: audit-my-context
-description: Audit which skills, MCP servers, connectors and plugins earn their place in your context window, from the last 30 days of real usage across Claude Code and Cowork. Use on "audit my context", "what should I turn off", "which skills or connectors are unused", "too many tools loaded" or "context window audit". Proposes keep, drop, demote and activate per item; never toggles anything. Do NOT use for one session's token breakdown (explain-usage), instruction-file drift (audit-ai-instructions) or model choice (prevent-token-burn).
+description: >-
+  Audits which skills, MCP servers, connectors and plugins earn their context space, from 30 days of real use; proposes keep, drop or demote, never toggles. Use on "audit my context", "what should I turn off", "too many tools loaded". Do NOT use for one session's tokens (explain-usage).
 license: MIT
 metadata:
   version: 0.1.0

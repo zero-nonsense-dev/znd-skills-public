@@ -1,6 +1,7 @@
 ---
 name: llm-council
-description: Convene a council of independent agents that answer a hard question separately, blind-review and rank each other's answers, then synthesize one vetted answer, fighting sycophancy and one-angle reasoning. Two modes, default (5 Claude sub-agents) and cross-vendor (real GPT/Gemini/Claude/Grok via OpenRouter, faithful to karpathy/llm-council). Trigger on "/llm-council", "convene the council", "run this through the council", "get a multi-model / second opinion", "stress-test this", "don't just agree with me", "argue both sides and tell me who's right", "is this actually a good idea", or any moment the user wants a decision pressure-tested rather than rubber-stamped. Use cross-vendor mode on "cross-vendor", "real models", "different providers", "use openrouter", "faithful council", or a `--cross-vendor` / `--openrouter` flag.
+description: >-
+  Convenes independent agents that answer a hard question separately, blind-rank each other and synthesize one vetted answer; cross-vendor mode uses real models via OpenRouter. Use on "/llm-council", "convene the council", "stress-test this", "don't just agree with me", "get a second opinion", or "cross-vendor".
 ---
 
 # LLM Council

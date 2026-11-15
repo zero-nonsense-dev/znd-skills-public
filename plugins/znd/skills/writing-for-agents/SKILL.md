@@ -1,6 +1,7 @@
 ---
 name: writing-for-agents
-description: How to write documents agents consume, skills, AGENTS.md, CLAUDE.md, and any doc reached by a pointer. Use when creating a new skill, rewriting or reviewing an existing one, sharpening a skill description that misfires or never fires, or editing AGENTS.md or CLAUDE.md. Do NOT use for scaffolding and packaging mechanics, that is skill-creator, or for plugin shipping gotchas, that is cowork-plugin-pitfalls.
+description: >-
+  Explains how to write documents agents consume: skills, AGENTS.md, CLAUDE.md and any doc reached by a pointer. Use when creating, rewriting or reviewing a skill, sharpening a description that misfires, or editing AGENTS.md or CLAUDE.md. Do NOT use for packaging mechanics (skill-creator).
 ---
 
 # Writing for agents
@@ -27,7 +28,10 @@ neighbouring skill could catch the same phrase, keep an explicit "Do NOT use for
 skill Y" line. Never reword a trigger phrase people actually type, or one a trigger eval tests:
 that is a regression. Caps: the open spec allows 1024 chars; Claude Code cuts the listing at
 1,536 chars and gives all skill descriptions together about 1% of the context window, dropping
-the least-used ones first. So aim under 500: every character is paid in every session.
+the least-used ones first; Codex gives the list 2% and shortens descriptions first. So the
+house cap is 350 (the validator warns above 350 and fails above 600): one third-person sentence
+on what, "Use on" with at most four triggers, one "Do NOT use" naming the closest sibling.
+Mode lists, dates and history live in the body. Every character is paid in every session.
 
 ## Information hierarchy
 
@@ -82,7 +86,7 @@ environment variable.
 
 ## Checklist for a new skill
 
-1. Description: triggers front-loaded, one per branch, under 500 chars, sibling boundaries named.
+1. Description: triggers front-loaded, at most four, 350 chars or less, closest sibling named.
 2. Body: steps first, first action pinned, completion criterion per step.
 3. Failure branch present, with named acceptable outcomes.
 4. Reference co-located or disclosed behind a pointer that resolves.

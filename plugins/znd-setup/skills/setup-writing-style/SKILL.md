@@ -1,12 +1,7 @@
 ---
 name: setup-writing-style
 description: >-
-  Builds a personal writing-voice skill by interviewing the user and analysing samples of their own
-  writing, saved as a reusable skill Claude loads before drafting in their name. Use on "set up a
-  writing style skill", "help Claude sound like me", "learn my writing voice", "make drafts sound
-  like me", or Dutch "leer mijn schrijfstijl". Covers register, sentence rhythm, per-format rules and
-  hard bans, derived from the user's own samples and answers, never from someone else's rules. Do
-  NOT use for visual brand identity, that is setup-brand.
+  Builds a personal writing-voice skill from interviews and the user's own writing samples, for drafting in their name. Use on "set up a writing style skill", "help Claude sound like me", "learn my writing voice", "leer mijn schrijfstijl". Do NOT use for visual brand identity (setup-brand).
 ---
 
 # Set up a writing-voice skill
