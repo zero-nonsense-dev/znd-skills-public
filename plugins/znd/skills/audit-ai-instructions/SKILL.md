@@ -1,6 +1,7 @@
 ---
 name: audit-ai-instructions
-description: Audit an environment for missing, conflicting, or stale AI instructions across Codex, Claude Code, Claude Desktop/Cowork, and GitHub Copilot. Use when checking instruction discovery, shared-rule drift, hooks, or unwanted punctuation, or after a new model release ("new model is out, audit my skills"). Reports evidence and enforcement gaps without automatically changing settings.
+description: >-
+  Audits Codex, Claude Code, Cowork and GitHub Copilot for missing, conflicting or stale AI instructions, hooks and drift, and reports gaps without changing settings. Use when checking instruction discovery or shared-rule drift, or on "new model is out, audit my skills".
 ---
 
 # Audit AI instructions

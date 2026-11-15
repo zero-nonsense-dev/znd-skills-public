@@ -1,6 +1,7 @@
 ---
 name: wait-what
-description: Use ONLY when the user explicitly invokes /wait-what or says "wait what", "you lost me", "ik ben je kwijt", "wacht, wat?", "say that again in plain English", "leg dat nog eens gewoon uit" to re-pitch a reply that did not land. Never invoke proactively and never on your own output; only the reader knows when comprehension failed. Not a tone or style rewrite, that is the humanize skill.
+description: >-
+  Re-pitches a reply that did not land, in plain words. Use ONLY when the user invokes /wait-what or says "wait what", "you lost me", "ik ben je kwijt", "wacht, wat?". Never proactive and never on Claude's own output. Do NOT use for a tone or style rewrite (humanize).
 ---
 
 # Wait, what?

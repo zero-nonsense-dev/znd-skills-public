@@ -1,7 +1,7 @@
 ---
 name: setup-brand
 description: >-
-  Build a personal or company brand skill by interviewing the user about their colours, type, logo rules and per-surface decisions, then writing it as a reusable skill Claude can load on future work. Use on "set up a brand skill", "help me define my brand", "create a brand guide for Claude", "what should our brand rules be", or Dutch equivalents like "help me met onze huisstijl". Do NOT invent colours or rules the user has not confirmed; ask, or read their existing assets.
+  Builds a personal or company brand skill by interviewing the user on colours, type, logo and per-surface rules, confirmed by the user, never invented. Use on "set up a brand skill", "help me define my brand", "help me met onze huisstijl". Do NOT use for writing voice (setup-writing-style).
 ---
 
 # Set up a brand skill

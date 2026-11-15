@@ -1,13 +1,7 @@
 ---
 name: setup-claude-instructions
 description: >-
-  Writes personal custom instructions for Claude by interviewing the user on how they want replies
-  structured, formatted and delivered, never by copying someone else's rules onto them. Use on "set
-  up my Claude instructions", "help me write custom instructions", "what should I put in Settings
-  for Claude", "create a CLAUDE.md for me", "how should I tell Claude to talk to me", or Dutch "help
-  me met mijn instructies voor Claude". Produces paste-in text for Claude.ai/Cowork settings, or a
-  CLAUDE.md/AGENTS.md file. Do NOT use to apply someone else's instructions to a new user; the point
-  is to ask, not reuse.
+  Writes personal custom instructions for Claude by interviewing the user on reply structure and format; outputs settings text or a CLAUDE.md or AGENTS.md. Use on "set up my Claude instructions", "help me write custom instructions", "create a CLAUDE.md for me". Do NOT use to copy someone else's rules onto a user.
 ---
 
 # Set up personal Claude instructions
