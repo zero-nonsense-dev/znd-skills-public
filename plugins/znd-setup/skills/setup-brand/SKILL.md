@@ -55,8 +55,10 @@ in, as one example of the shape. Build the new one from this interview, not from
 6. **Write the skill**, following this shape: a short header naming what it is for, exact colour
    tokens for dark, light and print if all three exist, type choices, a numbered "most often got
    wrong" list built directly from the hard no's in step 5, and a quick-reference block at the
-   bottom so an agent does not have to reread the whole file for a hex code. Output: a draft skill
-   file matching that shape.
+   bottom so an agent does not have to reread the whole file for a hex code. The skill's own
+   description: at most 350 characters, one sentence on what it does, "Use on" with at most four
+   trigger phrases, one "Do NOT use" naming the closest sibling skill; every session loads every
+   description, used or not. Output: a draft skill file matching that shape.
 
 7. **Show the draft back, then say where it lives**: as a project skill (`.claude/skills/`,
    `.agents/skills/`, or the equivalent for their harness) if it only applies to one codebase, or

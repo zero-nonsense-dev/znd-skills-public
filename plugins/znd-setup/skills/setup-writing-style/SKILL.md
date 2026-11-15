@@ -35,7 +35,9 @@ which, from actual samples and direct questions, not by assuming any one registe
    humour, how direct they want to be when delivering bad news or disagreeing with someone.
 
 4. **Ask about hard bans**: specific words, punctuation (an em dash ban is common but is not
-   universal, ask rather than assume), habits they actively dislike in their own past drafts.
+   universal, ask rather than assume), habits they actively dislike in their own past drafts. Ask
+   why for each one and write the reason next to it: "no em dashes, my clients read them as AI"
+   lets an agent judge an edge case, a bare ban does not.
 
 5. **Ask what "not my voice" looks like for them specifically.** Too stiff, too enthusiastic, too
    hedged, too long-winded, these are different failure modes and the fix for each is different.
@@ -49,7 +51,11 @@ which, from actual samples and direct questions, not by assuming any one registe
    numbered list of the most checkable, most often broken rules (the ban list belongs here,
    specific and short), a per-format section only if step 2 surfaced real differences between
    formats, and a note on what "not this voice" looks like so a reviewing pass has something
-   concrete to check against.
+   concrete to check against. Rhythm rules describe a direction (mix short and long sentences),
+   not a hard cap: Anthropic's Fable 5.2 prompting guide says a cap such as "20 words or fewer" makes prose choppy.
+   The skill's own description: at most 350 characters, one sentence on what it does, "Use on"
+   with at most four trigger phrases, one "Do NOT use" naming the closest sibling skill. Every
+   session loads every description, used or not.
 
 8. **Show the draft back against one of their own samples**: does the summary of their voice
    actually predict what they already wrote? If not, revise before saving. Done when it does.
