@@ -28,6 +28,9 @@ answer can take, never a default to apply to someone else.
    - For a finished piece of work, do they want a full recap of what changed, or just the outcome
      and a pointer to the file?
    - Any hard length preference, such as "keep routine answers short, only go long when I ask"?
+     Write a sentence rule as a direction ("short sentences, mostly in the style of ASD-STE100"),
+     not a hard cap such as "under 20 words": Anthropic's Fable 5.2 prompting guide names that cap as one that makes
+     prose choppy.
    - Output: a reply-shape rule you could hand to a stranger and have them apply it consistently.
 
 2. **Ask how they want actions delivered.** Do they run commands themselves afterward? If so, in
@@ -48,7 +51,9 @@ answer can take, never a default to apply to someone else.
    confirm before an irreversible action, name a model check before starting a task). Ask what THIS
    person's version of each rule is, if they have one at all, rather than suggesting Wilco's own
    rules from the worked example as defaults. Many people will not have a hard rule for every
-   category, that is a valid answer.
+   category, that is a valid answer. Write each rule with its reason and its scope. Keep "never"
+   for real hard limits (an irreversible action, a secret, a public post) and phrase the rest as
+   "ask before X": current models read "never" as absolute (Anthropic's Fable 5.2 prompting guide).
 
 5. **Ask about working context worth Claude knowing by default**: role, company, the tools or
    platforms they use most, anything they would otherwise have to repeat in every conversation.
@@ -75,7 +80,10 @@ answer can take, never a default to apply to someone else.
 ## Pitfalls
 
 - Defaulting to the worked example's rules (no em dashes, TLDR-first, PowerShell-only) for someone
-  who never asked for them. Those are one person's preferences, not the spec.
+  who never asked for them. Those are one person's preferences, not the spec. Its hard sentence
+  cap is one person's choice, and the kind of rule the Fable 5.2 guide warns about.
+- A rule with no reason. "Never delete files" freezes the agent; "ask before deleting files, they
+  are the only copy" lets it act and still stop where it matters.
 - Writing a long, thorough document nobody will reread. Specific and short beats exhaustive.
 - Saving before showing the draft back. The interview is only half the value, the review is the
   other half.
