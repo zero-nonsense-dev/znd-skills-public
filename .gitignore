@@ -8,3 +8,5 @@ __pycache__/
 .env.*
 .DS_Store
 Thumbs.db
+# siteoffice-git receipts, local to each laptop (as in the burnmon repo)
+_log/
